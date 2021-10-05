@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University Website Design - Yaduvanshi Abhimanyu arya</title>
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/c3470e197b.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kaisei+Tokumin&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/fontawesome.min.css">
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="Index.html"><img src="Images/logo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+              <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="About.html">ABOUT</a></li>
+                <li><a href="Course.html">COURSE</a></li>
+                <li><a href="Blog.html">BLOG</a></li>
+                <li><a href="Contact.html">CONTACT</a></li>
+              </ul>  
+            </div>
+            <i class="fa fa-bars"  onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Certificate & Online Program For 2021</h1>
+    </section>
+
+   <!-- ---------------- blog Page Content ------------------ -->
+
+   <Section class="blog-content">
+
+<div class="row">
+    <div class="blog-left">
+        <img src="Images/certificate.jpg">
+        <h2>Our Certificate & Online Program For 2021</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta a, eius itaque temporibus consequuntur voluptate omnis ipsa, similique aperiam accusantium cupiditate modi officiis repudiandae id obcaecati quidem commodi, repellat eos.</p> <br>
+
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore beatae repellat rerum, optio ratione, iste enim aliquid voluptates debitis quos veniam qui facilis saepe doloribus ex eius, non laboriosam impedit.</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id beatae excepturi delectus distinctio atque veniam dolorem quod repudiandae ut dicta illum maxime ipsa quaerat, eius amet voluptas voluptates tenetur quia!</p>
+        <br>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea praesentium, nostrum id dignissimos consectetur maiores nemo, optio saepe, aliquam quisquam ipsa odit officia est repellat assumenda aut odio inventore magni!</p>
+        <br>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti maxime delectus tempora itaque, pariatur magni repellat amet ullam sunt, incidunt, consectetur dolorem molestias. Dicta cum repellendus neque. Ad, laborum officiis.</p>
+
+
+
+    <div class="comment-box">
+          
+         <h3>Leave a comment</h3>
+
+         <form class="comment-form">
+            <input type="text" placeholder="Enter Name">
+            <input type="email" placeholder="Enter Email">
+             <textarea rows="5" placeholder="Your Comment"></textarea>
+             <button type="submit" class="hero-btn red-btn">POST Comment</button>
+         </form>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+    <div class="blog-right">
+        <h3>Post Categories </h3>
+        <div>
+            <span>Business Analytics</span>
+            <span>25</span>
+        </div>
+        <div>
+            <span>Marketing Analytics</span>
+            <span>27</span>
+        </div>
+        <div>
+            <span>Data science</span>
+            <span>30</span>
+        </div>
+        <div>
+            <span>Machine Learning</span>
+            <span>35</span>
+        </div>
+        <div>
+            <span>Computer Science</span>
+            <span>38</span>
+        </div>
+    </div>
+</div>
+
+   </Section>
+
+
+
+
+
+
+
+<!-- ----------Footer----------- -->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea laboriosam optio molestiae architecto recusandae numquam.</p>
+
+    <div class="icons">
+      <i class="fa fa-facebook"></i> 
+      <i class="fa fa-twitter"></i> 
+      <i class="fa fa-instagram"></i> 
+      <i class="fa fa-linkedin"></i>
+
+   </div>
+   <p>made with <i class="fa fa-heart-o"></i> by Abhimanyu arya</p>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+ <!-- ------Javascript for Toggle Menu--------- -->
+    <script>
+         var navLinks = document.getElementById("navLinks");
+
+         function showMenu(){
+             navLinks.style.right = "0";
+         }
+         function hideMenu(){
+             navLinks.style.right = "-200px";
+         }
+
+    </script>
+</body>
+</html>
